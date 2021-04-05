@@ -1,0 +1,23 @@
+<html >
+<head>
+    <title>Dashboard</title>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+   <center> <div style="text-align: center; margin-top: 100px;background-color: rgb(167, 241, 167); border: solid; padding: 100px ;width: 400px;" 
+        <centre><h2>Automation</h2></centre><br>
+        <button style="background: green;" onclick="on()">Light on</button> 
+        <button style="background: red;" onclick="off()">Light off</button><br>
+        <h3 style="display: inline-block;">Temperature:   </h3>
+        <h3 style="display: inline-block;" id="tempOutput">0</h3><br>
+        <h3 style="display: inline-block;">Humidity:  </h3>
+        <h3 style="display: inline-block;" class="humiOutput">0</h3><br>&ensp;
+        <button style="float: right;" type="button" value="sign out" onclick="signOut()">Sign out</button>
+    </div></center>
+
+
+</body>
+</html>
