@@ -1,12 +1,12 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyDJkKAb-DzRQimNmpf-oauZxfmqtpYqsvE",
-    authDomain: "rpi-first-project.firebaseapp.com",
-    databaseURL: "https://rpi-first-project-default-rtdb.firebaseio.com",
-    projectId: "rpi-first-project",
-    storageBucket: "rpi-first-project.appspot.com",
-    messagingSenderId: "500606150148",
-    appId: "1:500606150148:web:47e96edb5d940a4b927751"
+    apiKey: "****",
+    authDomain: "****",
+    databaseURL: "***",
+    projectId: "***",
+    storageBucket: "***",
+    messagingSenderId: "****",
+    appId: "****"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
