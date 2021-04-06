@@ -10,7 +10,7 @@ var firebaseConfig = {
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  var count =1
+  
  
 function submitted(){
     
@@ -18,7 +18,7 @@ function submitted(){
     let email= document.querySelector("#email").value;
     let password= document.querySelector("#password").value;
     
-    if(count ==1){
+    
     firebase.auth().signInWithEmailAndPassword(email, password)
     .then((userCredential) => {
     // Signed in
@@ -45,10 +45,9 @@ function submitted(){
     } else {
       // User is signed out
       // ...
-      window.location.assign("login.html");
+      
       console.log("fail");
       
     }
   });
-}}
-count= 2;
+}
